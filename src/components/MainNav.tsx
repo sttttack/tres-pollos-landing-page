@@ -8,18 +8,18 @@ export default function MainNav() {
         <nav>
           <ul>
             <li
-              className={`flex flex-col gap-6 font-bold font-ribeye mt-6 pl-6 pr-6`}
+              className={`flex flex-col gap-6 font-bold font-sans mt-6 pl-6 pr-6 text-white`}
             >
-              <NavLink to="/" className={`border-b-2 border-[#987b65]`}>
+              <NavLink to="/" className={`hover:underline`}>
                 Home
               </NavLink>
-              <NavLink to="/about" className={`border-b-2 border-[#987b65]`}>
+              <NavLink to="/about" className={`hover:underline`}>
                 About
               </NavLink>
-              <NavLink to="/services" className={`border-b-2 border-[#987b65]`}>
+              <NavLink to="/services" className={`hover:underline`}>
                 Services
               </NavLink>
-              <NavLink to="/contact" className={`border-b-2 border-[#987b65]`}>
+              <NavLink to="/contact" className={`hover:underline`}>
                 Contact
               </NavLink>
             </li>
