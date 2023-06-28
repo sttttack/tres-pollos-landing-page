@@ -1,7 +1,10 @@
-import React from "react";
 import ArrowFw from "../assets/images/arrow-forward.png";
 
-export default function Button({ buttonText }) {
+interface ButtonProps {
+  buttonText: string;
+}
+
+export default function Button({ buttonText }: ButtonProps) {
   return (
     <div>
       <button

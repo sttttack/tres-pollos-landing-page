@@ -1,4 +1,3 @@
-import React from "react";
 import Button from "../components/Button";
 import backgroundImage from "../assets/images/poultrybg.jpg";
 import MainComponent2 from "../components/MainComponent2";

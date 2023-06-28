@@ -1,4 +1,3 @@
-import React from "react";
 import Button from "./Button";
 import Haccp from "../assets/images/haccp.png";
 

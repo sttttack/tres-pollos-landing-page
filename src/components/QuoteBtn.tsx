@@ -1,4 +1,3 @@
-import React from "react";
 import Phone from "../assets/images/phone.png";
 
 export default function QuoteBtn() {
