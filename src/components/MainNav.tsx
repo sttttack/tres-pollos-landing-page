@@ -1,7 +1,7 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 
-export default function MainNav() {
+export default function MainNav({ textColor, fontSize }) {
   return (
     <div>
       <header>
@@ -13,24 +13,28 @@ export default function MainNav() {
               <NavLink
                 to="/"
                 className={({ isActive }) => (isActive ? `underline` : ``)}
+                style={{ color: textColor, fontSize: fontSize }}
               >
                 Home
               </NavLink>
               <NavLink
                 to="/about"
                 className={({ isActive }) => (isActive ? `underline` : ``)}
+                style={{ color: textColor, fontSize: fontSize }}
               >
                 About
               </NavLink>
               <NavLink
                 to="/services"
                 className={({ isActive }) => (isActive ? `underline` : ``)}
+                style={{ color: textColor, fontSize: fontSize }}
               >
                 Services
               </NavLink>
               <NavLink
                 to="/contact"
                 className={({ isActive }) => (isActive ? `underline` : ``)}
+                style={{ color: textColor, fontSize: fontSize }}
               >
                 Contacts
               </NavLink>

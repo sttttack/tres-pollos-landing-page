@@ -8,7 +8,11 @@ export default {
       dm: ["DM"],
       sans: ["sans-serif"],
     },
-    extend: {},
+    extend: {
+      backgroundImage: {
+        bgMain: "url('src/assets/images/poultrybg.jpg')",
+      },
+    },
   },
   plugins: [],
 };
