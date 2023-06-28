@@ -8,10 +8,15 @@ export default function Header() {
   return (
     <div>
       <div className="bg-[#E0B10B] text-xl fixed w-full h-12 flex justify-between items-center z-10 font-osita tracking-wide">
-        <div className="p-4">
+        <div
+          className={`p-4 flex items-center md:justify-between w-full lg:ml-[15vw] lg:mr-[15vw]`}
+        >
           <h1>Tres Pollos</h1>
+          <div className={`hidden md:flex font-ribeye`}>
+            <MainNav />
+          </div>
         </div>
-        <div className={`p-4`}>
+        <div className={`p-4 md:hidden`}>
           <Hamburger toggled={isOpen} toggle={setIsOpen} />
         </div>
       </div>

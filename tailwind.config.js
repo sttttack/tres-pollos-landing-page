@@ -5,6 +5,8 @@ export default {
     fontFamily: {
       ribeye: ["Ribeye Marrow"],
       osita: ["Osita"],
+      dm: ["DM"],
+      sans: ["sans-serif"],
     },
     extend: {},
   },

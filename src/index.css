@@ -9,6 +9,11 @@
   src: url("../src/assets/fonts/FontsFree-Net-Otista-7BwYE.ttf");
 }
 
+@font-face {
+  font-family: "DM";
+  src: url("https://fonts.googleapis.com/css2?family=DM+Sans&display=swap");
+}
+
 * {
   box-sizing: border-box;
   margin: 0;
