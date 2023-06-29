@@ -14,7 +14,7 @@ export default function Header() {
         >
           <h1 className={`font-osita text-red-600`}>Tres Pollos</h1>
           <div className={`hidden md:flex font-ribeye items-center gap-4`}>
-            <MainNav textColor={"black"} />
+            <MainNav textColor={"black"} fontSize={"14px"} />
             <QuoteBtn />
           </div>
         </div>
@@ -23,11 +23,11 @@ export default function Header() {
         </div>
       </div>
       <div
-        className={`bg-[#A5895C] fixed w-full h-[50vh] top-12 transition-transform duration-500 ease-in-out transform ${
-          isOpen ? "translate-y-0" : "-translate-y-full"
+        className={`bg-[#A5895C] fixed w-full h-[50vh] top-12 z-10 transition-transform duration-500 ease-in-out transform ${
+          isOpen ? "translate-y-0" : "-translate-y-[100%] z-0"
         }`}
       >
-        <MainNav textColor={"black"} />
+        <MainNav textColor={"black"} fontSize={"16px"} />
       </div>
     </div>
   );

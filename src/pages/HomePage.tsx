@@ -13,10 +13,10 @@ export default function HomePage() {
         }}
       >
         <div
-          className={` top-0 left-0 w-full h-full bg-black bg-opacity-50 flex flex-col justify-center items-center gap-6`}
+          className={` top-0 left-0 w-full h-full bg-black bg-opacity-50 flex flex-col justify-center items-center gap-8`}
         >
           <h1
-            className={`font-ribeye text-[52px] text-white text-center animate-slideUp`}
+            className={`font-ribeye text-[52px] text-white text-center animate-slideUp z-0`}
           >
             Welcome to{" "}
             <span className={`font-osita text-red-600`}>Tres Pollo's</span>{" "}

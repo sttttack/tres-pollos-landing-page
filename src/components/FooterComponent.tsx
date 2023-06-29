@@ -1,15 +1,18 @@
+import { Link } from "react-router-dom";
 import MainNav from "./MainNav";
 
 export default function FooterComponent() {
   return (
-    <div className="flex flex-col bottom-0 left-0 w-full h-[400px] bg-[#0F161E]">
-      <div className={`text-yellow-400 pl-6 pt-6 text-lg flex flex-col`}>
-        Quick Links:
-      </div>
-      <MainNav textColor={"white"} fontSize={"12px"} />
-      <div className={`text-yellow-400 p-6 text-lg flex flex-col`}>
-        Connect with us:
-        <div className="flex flex-wrap gap-4 pt-6">
+    <div className=" bg-gray-900">
+      <div className="max-w-2xl mx-auto text-white py-10">
+        <div className="text-center">
+          <h3 className="text-3xl mb-3 font-osita text-red-600">
+            {" "}
+            Tres Pollos{" "}
+          </h3>
+          <p className={`font-sans`}> Connect with us:</p>
+        </div>
+        <div className={`flex justify-center items-center gap-4 pt-2`}>
           <button className="bg-blue-500 p-2 font-semibold text-white inline-flex items-center space-x-2 rounded">
             <svg
               className="w-5 h-5 fill-current"
@@ -42,6 +45,25 @@ export default function FooterComponent() {
               </g>
             </svg>
           </button>
+        </div>
+        <div className="mt-28 flex flex-col md:flex-row md:justify-between items-center text-sm text-gray-400">
+          <p className="order-2 md:order-1 mt-8 md:mt-0">
+            &copy; Tres Pollos, 2023.
+          </p>
+          <div className="order-1 md:order-2">
+            <Link to="/" className="px-2">
+              Home Page
+            </Link>
+            <Link to="/about" className="px-2">
+              About Us
+            </Link>
+            <Link to="/services" className="px-2">
+              Services
+            </Link>
+            <Link to="/contact" className="px-2">
+              Contact
+            </Link>
+          </div>
         </div>
       </div>
     </div>
