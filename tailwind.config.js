@@ -7,6 +7,8 @@ export default {
       osita: ["Osita"],
       dm: ["DM"],
       sans: ["sans-serif"],
+      big: ["Bigshot One"],
+      man: ["Manrope"],
     },
     extend: {
       backgroundImage: {
