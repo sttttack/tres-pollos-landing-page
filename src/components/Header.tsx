@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import Hamburger from "hamburger-react";
 import MainNav from "./MainNav";
 import QuoteBtn from "./QuoteBtn";
