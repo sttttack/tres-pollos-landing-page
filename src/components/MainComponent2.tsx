@@ -1,6 +1,5 @@
 import ModalBox from "../components/ModalBox";
 import Haccp from "../assets/images/haccp.png";
-import Button from "./Button";
 
 export default function MainComponent2() {
   return (
