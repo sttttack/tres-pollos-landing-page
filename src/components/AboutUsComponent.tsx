@@ -4,7 +4,7 @@ export default function AboutUsComponent() {
   return (
     <div className="relative">
       <div
-        className={`flex justify-center items-center flex-col w-auto h-[80vh] md:h-[80vh] bg-cover brightness-40 `}
+        className={`flex justify-center items-center flex-col w-auto h-[100vh] md:h-[80vh] bg-cover brightness-40`}
         style={{
           backgroundImage: `url(${Chicken})`,
         }}
