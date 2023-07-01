@@ -1,13 +1,14 @@
-import Button from "./Button";
+import ModalBox from "../components/ModalBox";
 import Haccp from "../assets/images/haccp.png";
+import Button from "./Button";
 
 export default function MainComponent2() {
   return (
     <div
-      className={`bg-gray-300 flex items-center gap-4 flex-col pt-10 pl-6 pr-6`}
+      className={`flex items-center gap-4 flex-col pt-10 pl-6 md:pl-0 pr-6 md:pr-0 my-component`}
     >
       <div
-        className={`flex flex-col lg:gap-[180px] md:flex-row items-center h-[227px]`}
+        className={`flex flex-col lg:gap-[180px] md:pl-6 md:pr-6 md:flex-row items-center h-[227px] lg:w-[90vw] 2xl:w-[1320px] `}
       >
         <h1
           className={`font-ribeye text-[42px] md:text-[50px] w-auto lg:max-w-[476px] lg:text-[52px] lg:h-[207px] text-[#0D584C]`}
@@ -15,19 +16,20 @@ export default function MainComponent2() {
           Quality, innovation and food safety.
         </h1>
         <div
-          className={`flex flex-col gap-10 lg:w-[624px] lg:h-[207px] justify-center`}
+          className={`flex flex-col gap-10 lg:w-[600x] lg:h-[207px] justify-center`}
         >
           <p className={`text-left w-auto leading-8 font-man font-semibold`}>
             Trust our products from our family-owned poultry farm with HACCP
             system: Quality, safety, traceability, sustainability, and
             personalized service.
           </p>
-          <Button buttonText={"Discover More"} />
         </div>
       </div>
-      <div className={`flex flex-col md:flex-row gap-6 mt-20 mb-12 font-big`}>
+      <div
+        className={`flex flex-col md:flex-row gap-4 md:gap-6 mt-[160px] mb-12 font-big `}
+      >
         <div
-          className={`w-[90vw] h-[300px] md:w-[300px] bg-white rounded-md p-6`}
+          className={`w-[90vw] h-[300px] md:w-[22vw]  xl:w-[300px] bg-white rounded-md p-6 flex flex-col items-start gap-2`}
         >
           <img src={Haccp} className={`w-auto h-14`} />
 
@@ -36,14 +38,19 @@ export default function MainComponent2() {
           >
             We are proud to announce that our poultry farm has integrated HACCP!
             HACCP is a rigorous food safety management system that ensures the
+            highest standards in our operations.
+          </p>
+          <ModalBox
+            text={`We are proud to announce that our poultry farm has integrated HACCP!
+            HACCP is a rigorous food safety management system that ensures the
             highest standards in our operations. With HACCP, we proactively
             identify and control potential hazards at every stage of production,
             guaranteeing the safety and quality of our poultry products. Your
-            trust and well-being are our top priorities.
-          </p>
+            trust and well-being are our top priorities.`}
+          />
         </div>
         <div
-          className={`w-[90vw] h-[300px] md:w-[300px] bg-white rounded-md p-6`}
+          className={`w-[90vw] h-[300px] md:w-[22vw]   xl:w-[300px] bg-white rounded-md p-6 flex flex-col items-start gap-2`}
         >
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -62,14 +69,20 @@ export default function MainComponent2() {
             At our poultry farm, we take pride in producing approximately 10,000
             healthy chicks every 40 days. We prioritize the well-being of our
             flock by ensuring that all necessary vaccinations are administered
+            on time.
+          </p>
+          <ModalBox
+            text={`At our poultry farm, we take pride in producing approximately 10,000
+            healthy chicks every 40 days. We prioritize the well-being of our
+            flock by ensuring that all necessary vaccinations are administered
             on time. By strictly adhering to vaccination schedules, we maintain
             optimal health standards, safeguarding the welfare and quality of
-            our poultry.
-          </p>
+            our poultry.`}
+          />
         </div>
 
         <div
-          className={`w-[90vw] h-[300px] md:w-[300px] bg-white rounded-md p-6`}
+          className={`w-[90vw] h-[300px] md:w-[22vw]   xl:w-[300px] bg-white rounded-md p-6 flex flex-col items-start gap-2`}
         >
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -85,13 +98,18 @@ export default function MainComponent2() {
           >
             Customer-Oriented Approach: Your satisfaction matters to us. We
             value your feedback and continuously strive to meet and exceed your
+            expectations.
+          </p>
+          <ModalBox
+            text={`Customer-Oriented Approach: Your satisfaction matters to us. We
+            value your feedback and continuously strive to meet and exceed your
             expectations. Our team is dedicated to addressing any concerns or
             inquiries promptly, ensuring a positive experience with our chicken
-            products.
-          </p>
+            products.`}
+          />
         </div>
         <div
-          className={`w-[90vw] h-[300px] md:w-[300px] bg-white rounded-md p-6`}
+          className={`w-[90vw] h-[300px] md:w-[22vw]   xl:w-[300px] bg-white rounded-md p-6 flex flex-col items-start gap-2`}
         >
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -113,6 +131,12 @@ export default function MainComponent2() {
             temperature, humidity, and ventilation conditions necessary for
             embryonic development.
           </p>
+          <ModalBox
+            text={`The process begins with carefully selecting fertile chicken eggs.
+            These eggs are then placed in an incubator, which provides the ideal
+            temperature, humidity, and ventilation conditions necessary for
+            embryonic development.`}
+          />
         </div>
       </div>
     </div>

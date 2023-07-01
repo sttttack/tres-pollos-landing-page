@@ -23,11 +23,11 @@ export default function HomePage() {
             farm!
           </h1>
           <p
-            className={`text-[#EDECD8] text-center text-lg font-man font-semibold animate-slideUp`}
+            className={`text-[#EDECD8] text-center text-lg font-man font-semibold animate-slideUp pl-6 pr-6`}
           >
             All of our chickens are grown in the Valley of Mukhrani.
           </p>
-          <Button buttonText={"Get more info"} />
+          <Button buttonText={"Discover More"} />
         </div>
       </div>
       <MainComponent2 />
