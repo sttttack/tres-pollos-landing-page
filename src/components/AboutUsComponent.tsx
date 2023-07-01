@@ -4,16 +4,16 @@ export default function AboutUsComponent() {
   return (
     <div className="relative">
       <div
-        className={`flex justify-center items-center flex-col w-auto h-[80vh] md:h-[80vh] bg-cover brightness-40`}
+        className={`flex justify-center items-center flex-col w-auto h-[80vh] md:h-[80vh] bg-cover brightness-40 `}
         style={{
           backgroundImage: `url(${Chicken})`,
         }}
       >
         <div
-          className={`left-0 w-full h-full bg-black bg-opacity-50 flex flex-col justify-center items-center gap-8`}
+          className={`left-0 w-full h-full bg-black bg-opacity-50 flex flex-col justify-center items-center`}
         >
           <h1
-            className={`font-ribeye text-[52px] text-white text-center animate-slideUp z-0`}
+            className={`font-ribeye text-[52px] text-white text-center animate-slideUp pt-10`}
           >
             About Us
           </h1>
