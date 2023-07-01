@@ -1,3 +1,9 @@
+import ServicesComponent from "../components/ServicesComponent";
+
 export default function Services() {
-  return <div>Services we offer:</div>;
+  return (
+    <div>
+      <ServicesComponent />
+    </div>
+  );
 }
