@@ -7,25 +7,21 @@ export default function MainComponent2() {
       className={`flex items-center gap-4 flex-col pt-10 pl-6 md:pl-0 pr-6 md:pr-0 my-component`}
     >
       <div
-        className={`flex flex-col lg:gap-[180px] md:pl-6 md:pr-6 md:flex-row items-center h-[227px] lg:w-[90vw] 2xl:w-[1320px] `}
+        className={`flex flex-col gap-4 lg:gap-[180px] md:pl-6 md:pr-6 md:flex-row items-center h-[227px] lg:w-[90vw] 2xl:w-[1320px] `}
       >
         <h1
           className={`font-ribeye text-[42px] md:text-[50px] w-auto lg:max-w-[476px] lg:text-[52px] lg:h-[207px] text-[#0D584C]`}
         >
           Quality, innovation and food safety.
         </h1>
-        <div
-          className={`flex flex-col gap-10 lg:w-[600x] lg:h-[207px] justify-center`}
-        >
-          <p className={`text-left w-auto leading-8 font-man font-semibold`}>
-            Trust our products from our family-owned poultry farm with HACCP
-            system: Quality, safety, traceability, sustainability, and
-            personalized service.
-          </p>
-        </div>
+        <p className={`text-left w-auto leading-8 font-man font-semibold`}>
+          Trust our products from our family-owned poultry farm with HACCP
+          system: Quality, safety, traceability, sustainability, and
+          personalized service.
+        </p>
       </div>
       <div
-        className={`flex flex-col md:flex-row gap-4 md:gap-6 mt-[160px] lg:mt-[50px] mb-12 font-big `}
+        className={`flex flex-col mt-[100px] md:flex-row gap-4 md:gap-6  lg:mt-[50px] mb-12 font-big `}
       >
         <div
           className={`w-[90vw] h-[300px] md:w-[22vw]  xl:w-[300px] bg-white rounded-md p-6 flex flex-col items-start gap-2`}
