@@ -1,6 +1,11 @@
 import { NavLink } from "react-router-dom";
 
-export default function MainNav({ textColor, fontSize }) {
+interface NavProps {
+  textColor: string;
+  fontSize: string | number;
+}
+
+export default function MainNav({ textColor, fontSize }: NavProps) {
   return (
     <div>
       <header>
