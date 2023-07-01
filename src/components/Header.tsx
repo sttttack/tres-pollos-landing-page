@@ -1,10 +1,16 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
+import { useLocation } from "react-router";
+import QuoteBtn from "./QuoteBtn";
 import Hamburger from "hamburger-react";
 import MainNav from "./MainNav";
-import QuoteBtn from "./QuoteBtn";
 
 export default function Header() {
   const [isOpen, setIsOpen] = useState(false);
+  const location = useLocation();
+
+  useEffect(() => {
+    setIsOpen(false);
+  }, [location]);
 
   return (
     <>
