@@ -24,7 +24,7 @@ export default function Header() {
           </div>
         </div>
         <div
-          className={`bg-[#c79e5c] flex  w-full h-[50vh] top-12 fixed z-10 transition-transform duration-500 ease-in-out transform ${
+          className={`bg-[#c79e5c]   w-full h-[50vh] absolute top-12 z-10 transition-transform duration-500 ease-in-out transform ${
             isOpen ? "translate-y-0" : "-translate-y-[100%] z-0"
           }`}
         >
