@@ -9,6 +9,7 @@ export default {
       sans: ["sans-serif"],
       big: ["Bigshot One"],
       man: ["Manrope"],
+      dmsans: ["DM Sans"],
     },
     extend: {
       backgroundImage: {

@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Ribeye+Marrow&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Bigshot+One&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Manrope:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans&display=swap");
 
 @tailwind base;
 @tailwind components;
@@ -9,6 +10,10 @@
 @font-face {
   font-family: "Osita";
   src: url("../src/assets/fonts/FontsFree-Net-Otista-7BwYE.ttf");
+}
+@font-face {
+  font-family: "DM Sans";
+  src: url("https://fonts.googleapis.com/css2?family=DM+Sans&display=swap");
 }
 
 @font-face {

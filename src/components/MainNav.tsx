@@ -12,7 +12,7 @@ export default function MainNav({ textColor, fontSize }: NavProps) {
         <nav>
           <ul>
             <li
-              className={`flex flex-col gap-6 font-semibold font-sans mt-6 md:mt-0 pl-6 pr-6 text-black md:flex md:z-10 md:flex-row lg:pl-0 lg:pr-0`}
+              className={`flex flex-col gap-6 font-dmsans  mt-6 md:mt-0 pl-6 pr-6 text-black md:flex md:z-10 md:flex-row lg:pl-0 lg:pr-0`}
             >
               <NavLink
                 to="/"
@@ -33,7 +33,7 @@ export default function MainNav({ textColor, fontSize }: NavProps) {
                 className={({ isActive }) => (isActive ? `underline` : ``)}
                 style={{ color: textColor, fontSize: fontSize }}
               >
-                Services
+                Our Services
               </NavLink>
               <NavLink
                 to="/contact"
