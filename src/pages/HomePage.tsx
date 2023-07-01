@@ -10,6 +10,7 @@ export default function HomePage() {
         className={`flex justify-center items-center flex-col w-auto h-[80vh] md:h-[100vh] bg-cover `}
         style={{
           backgroundImage: `url(${backgroundImage})`,
+          backgroundSize: "contain",
         }}
       >
         <div
