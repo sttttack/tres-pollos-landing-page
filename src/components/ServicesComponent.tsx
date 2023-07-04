@@ -2,7 +2,7 @@ import Market from "../assets/images/market.jpg";
 
 export default function ServicesComponent() {
   return (
-    <div className="relative">
+    <div className="relative mb-[70px]">
       <div
         className={`flex justify-center items-center flex-col w-auto h-[100vh] md:h-[80vh] bg-cover brightness-40`}
         style={{

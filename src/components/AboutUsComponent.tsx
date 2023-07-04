@@ -2,9 +2,9 @@ import Chicken from "../assets/images/raw-chicken.jpg";
 
 export default function AboutUsComponent() {
   return (
-    <div className="relative">
+    <div className="relative mb-[70px]">
       <div
-        className={`flex justify-center items-center flex-col w-auto h-[100vh] md:h-[80vh] bg-cover brightness-40`}
+        className={`flex justify-center items-center flex-col w-auto h-[100vh] md:h-[80vh] bg-cover brightness-40 `}
         style={{
           backgroundImage: `url(${Chicken})`,
         }}

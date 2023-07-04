@@ -3,7 +3,7 @@ import Board from "../assets/images/cuttingboard.jpg";
 export default function ContactComponent() {
   return (
     <div
-      className={`overflow-y-hidden overflow-hidden flex justify-center items-center`}
+      className={`overflow-y-hidden overflow-hidden flex justify-center items-center mb-[70px]`}
     >
       <div
         className={`w-screen bg-cover brightness-40 h-[80vh]`}
