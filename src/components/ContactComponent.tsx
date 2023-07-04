@@ -9,7 +9,7 @@ export default function ContactComponent() {
           backgroundImage: `url(${Board})`,
         }}
       >
-        <div className="container mt-[30vh] flex my-24 mx-auto md:px-6 lg:w-[1440px]">
+        <div className="container mt-[30vh] flex my-24 mx-auto md:px-6 lg:w-[1440px] animate-slideUp">
           <div className="container px-6 md:px-12">
             <div className="block rounded-lg bg-[hsla(0,0%,100%,0.8)] px-6 py-12 shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] dark:bg-[hsla(0,0%,5%,0.7)] dark:shadow-black/20 md:py-16 md:px-12 -mt-[100px] backdrop-blur-[30px]">
               <div className="flex flex-wrap">
