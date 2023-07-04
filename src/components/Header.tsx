@@ -3,6 +3,7 @@ import { useLocation } from "react-router";
 import QuoteBtn from "./QuoteBtn";
 import Hamburger from "hamburger-react";
 import MainNav from "./MainNav";
+import { Link } from "react-router-dom";
 
 export default function Header() {
   const [isOpen, setIsOpen] = useState(false);
@@ -19,7 +20,9 @@ export default function Header() {
           <div
             className={`p-4 flex items-center md:justify-between w-full lg:ml-[4.0vw] lg:mr-[4.0vw] 2xl:ml-[15vw] 2xl:mr-[15vw]`}
           >
-            <h1 className={`font-osita text-red-600`}>Tres Pollos</h1>
+            <Link to="/">
+              <h1 className={`font-osita text-red-600`}>Tres Pollos</h1>
+            </Link>
             <div className={`hidden md:flex font-ribeye items-center gap-4`}>
               <MainNav textColor="black" fontSize="14px" />
               <QuoteBtn />
